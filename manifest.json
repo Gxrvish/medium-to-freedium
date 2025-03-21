@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Freedium Direct Opener",
+  "version": "1.0",
+  "permissions": ["contextMenus", "scripting", "tabs"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
