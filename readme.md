@@ -9,7 +9,7 @@ A **Chrome extension** that adds a custom right-click menu option to **open link
 ✅ Lightweight and easy to use
 
 
-![image](https://github.com/user-attachments/assets/20efe001-840f-40f4-8f47-14248cef03a6)
+![image](image.png)
 
 ## **Installation** 🛠
 1. **Download or clone** the repository:
