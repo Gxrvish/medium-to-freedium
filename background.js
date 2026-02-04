@@ -17,7 +17,7 @@ chrome.runtime.onInstalled.addListener(() => {
 chrome.contextMenus.onClicked.addListener((info, tab) => {
     if (info.menuItemId === "customButton") {
         console.log("Freedium Link Clicked! URL:", info.linkUrl);
-        const linkNew = "https://freedium.cfd/" + info.linkUrl
+        const linkNew = "https://freedium-mirror.cfd/" + info.linkUrl
         chrome.tabs.create({ url: linkNew });
     }
 });
